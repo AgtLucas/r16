@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-class Error extends Component {
-  constructor () {
-    super()
+class ErrorBoundary extends Component {
+  constructor (props) {
+    super(props)
     this.state = { error: null, errorInfo: null }
   }
 
@@ -31,4 +31,4 @@ class Error extends Component {
   }
 }
 
-export default Error
+export default ErrorBoundary
